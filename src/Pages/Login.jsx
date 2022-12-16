@@ -1,12 +1,12 @@
-import {
-  Modal,
-  ModalOverlay,
-  ModalContent,
-  ModalHeader,
-  ModalFooter,
-  ModalBody,
-  ModalCloseButton,
-} from "@chakra-ui/react";
+// import {
+//   Modal,
+//   ModalOverlay,
+//   ModalContent,
+//   ModalHeader,
+//   ModalFooter,
+//   ModalBody,
+//   ModalCloseButton,
+// } from "@chakra-ui/react";
 
 function Login() {
   // const { isOpen, onOpen, onClose } = useDisclosure();
