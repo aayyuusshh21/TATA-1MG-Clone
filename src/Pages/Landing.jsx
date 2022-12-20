@@ -470,6 +470,72 @@ function Landing() {
           </Swiper>
         </div>
       </div>
+      <div style={{ width: "80%", margin: "auto" }}>
+        <p className="Featured_Brands">New arrivals on TATA 1mg</p>
+        <div className="Featured_Brands_swiper">
+          <Swiper
+            // install Swiper modules
+            modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+            spaceBetween={10}
+            breakpoints={{
+              // when window width is >= 640px
+              450: {
+                width: 450,
+                slidesPerView: 2,
+              },
+              640: {
+                width: 640,
+                slidesPerView: 3,
+              },
+              // when window width is >= 768px
+              768: {
+                width: 1068,
+                slidesPerView: 4,
+              },
+            }}
+            navigation
+            Autoplay
+            pagination={{ clickable: true }}
+            //scrollbar={{ draggable: true }}
+            onSwiper={(swiper) => console.log(swiper)}
+            className="swiper-ads"
+          >
+            {data.slice(26, 35).map((elem) => (
+              <SwiperSlide
+                className="swiper-slide-3"
+                // onClick={() => handleDetails(elem._id)}
+              >
+                <Link to={`/products/${elem._id}`}>
+                  <Image src={elem.imageUrl}></Image>
+                  <div className="Healthvit_heading">{elem.productName}</div>
+                  <Text fontSize="12px" color={"#757575"}>
+                    {" "}
+                    {elem.shortDesc}
+                  </Text>
+                  <div className="card_span_star">
+                    <div className="card_star_rating">
+                      {elem.ratings}
+                      <AiFillStar color="white" />
+                    </div>
+                    7
+                  </div>
+                  <div className="card_cuttoff">
+                    <Text color={"#757575"} marginRight="2px">
+                      MRP
+                    </Text>
+                    <span>{elem.strikedPrice}</span>
+                  </div>
+                  <div>
+                    <Heading fontSize={"16px"} marginLeft={"10px"}>
+                      {elem.price}
+                    </Heading>
+                  </div>
+                </Link>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+      </div>
       <Accordion
         defaultIndex={[0]}
         allowMultiple

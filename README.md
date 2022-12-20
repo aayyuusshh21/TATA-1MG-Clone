@@ -3,14 +3,14 @@
 # Highlights
 
 Solo Project.\
-E-Commerce website based on medicine and health-care product.\
+E-Commerce website based on medicine and health-care product.
 
 # Tech Stack
 
 React.\
 JavaScript.\
 Chakra UI.\
-Swipper JS.\
+Swipper JS.
 
 # About
 
