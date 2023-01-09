@@ -6,8 +6,8 @@ TATA 1MG is an online e-commerce website for medicines and medical products. Hom
 Solo Project.\
 E-Commerce website based on medicine and health-care product.
 
-#To Run Locally
-##Clone the project
+# To Run Locally
+## Clone the project
 ```bash
   git clone https://github.com/aayyuusshh21/screeching-poison-8463.git
 ```
