@@ -3,6 +3,8 @@ TATA 1MG is an online e-commerce website for medicines and medical products. Hom
 
 ![Screenshot from 2023-01-09 18-19-17](https://user-images.githubusercontent.com/107826861/211369032-3fe4358b-4596-4cc0-8238-69c2e9c12446.png)
 
+![Screenshot from 2023-01-09 22-59-22](https://user-images.githubusercontent.com/107826861/211370283-8394d8a8-9ffa-4b42-8ee7-7ec745184ae7.png)
+
 # Highlights
 
 Solo Project.\
