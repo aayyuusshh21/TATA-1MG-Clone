@@ -19,7 +19,7 @@ E-Commerce website based on medicine and health-care product.
 Go to the project directory
 
 ```bash
-  cd screeching-poison-8463
+  cd screeching-poison-8463/src
 ```
 
 Install dependencies
